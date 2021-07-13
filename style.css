@@ -9,4 +9,46 @@
 \***********************/
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+/***********************\
+      Container CSS 
+\***********************/
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:#2D25A0;
+}
+.copa-america{
+    width: 1160px;
+    height: 677px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.copa-america-title h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.live-button{
+    height: 44px;
+    width: 168px;
+    background-color: #E02C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.live-button a, i { 
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.copa-america-banner img{
+    width: 556px;
+    height: 438px;
 }
