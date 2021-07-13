@@ -1,7 +1,7 @@
 /***********************\
       Google font 
 \***********************/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
 /***********************\
@@ -47,6 +47,14 @@ body{
     color: #ffffff;
     text-decoration: none;
     margin-right: 10px;
+}
+.copa-america:hover i{
+    transform: translate(100px) rotate(0.5turn) scale(3);
+    transition: transform 1.5s ease-in-out;
+}
+.copa-america:hover a{
+    transform: translate(15px) scale(1.5);
+    transition: transform 1.5s ease-in-out;
 }
 .copa-america-banner img{
     width: 556px;
