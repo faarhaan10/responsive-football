@@ -191,6 +191,16 @@ height: 32px;
     Final Match Part part 
 \**************************/
 
+.final-match-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.final-match-title h2{
+    font-size: 34px;
+    font-weight: 700;
+}
 .final-match{
     display: flex;
     justify-content: center;
@@ -261,10 +271,6 @@ height: 200px;
 .player-detail{
     width: 94%;
 }
-
-.participate-countries{
-
-}
 .countries{
     grid-template-columns: repeat(1,1fr);
 }
@@ -276,5 +282,7 @@ height: 200px;
     width: 95%;
     height: auto;
 }
+
+/** For Tablet Devices **/
 
 }
