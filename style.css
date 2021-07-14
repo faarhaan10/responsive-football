@@ -223,3 +223,58 @@ height: 200px;
     font-size: 100px;
     font-weight: 700;
 }
+
+
+
+
+/**************************\
+    Media Quaries 
+\**************************/
+
+/** For Mobile Devices **/
+@media only screen and (max-width:688px){
+.copa-america {
+    width: 100%;
+    flex-direction: column;
+    padding: 5%;
+}
+.copa-america-title h1 {
+    font-size: 34px;
+}
+.copa-america-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.players{
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 14px;
+}
+.blog{
+    width: 94%;
+    margin:0 3%;
+}
+.player-photo img{
+    width: 94%;
+    padding: 10px;
+}
+.player-detail{
+    width: 94%;
+}
+
+.participate-countries{
+
+}
+.countries{
+    grid-template-columns: repeat(1,1fr);
+}
+.final-match{
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo img {
+    width: 95%;
+    height: auto;
+}
+
+}
