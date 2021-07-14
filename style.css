@@ -282,7 +282,35 @@ height: 200px;
     width: 95%;
     height: auto;
 }
-
+}
 /** For Tablet Devices **/
-
+@media only screen and (min-width:688px) and (max-width:992px){
+    .copa-america {
+        width: 100%;
+        padding: 5%;
+    }
+    .copa-america-title h1 {
+        font-size: 50px;
+    }
+    .copa-america-banner img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .players{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .countries{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .final-match-country{
+        width: 250px;
+    }
+    .score{
+        width: 70px;
+    }
+    .footer-logo img {
+        width: 95%;
+        height: auto;
+    }
 }
