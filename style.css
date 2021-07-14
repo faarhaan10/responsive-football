@@ -267,12 +267,18 @@ height: 32px;
     justify-content: space-around;
     padding-top: 5px;
 }
+.player-photo{
+    display: flex;
+justify-content: center;
+}
 .player-photo img{
-    width: 94%;
-    padding: 10px;
+    width: 90%;
 }
 .player-detail{
     width: 94%;
+}
+.player-inf p{
+    font-size: 14px;
 }
 .countries{
     grid-template-columns: repeat(1,1fr);
