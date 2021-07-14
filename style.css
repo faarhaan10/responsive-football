@@ -82,13 +82,14 @@ height: 456px;
 display: flex;
 flex-direction: column;
 align-items: center;
+justify-content: center;
 background: #FFFFFF;
 box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .player-photo img{
     width: 300px;
     height: 256px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 .player-detail{
     width: 300px;
@@ -183,4 +184,42 @@ height: 32px;
 .section-copyright{
     font-size: 18px;
     font-weight: 400;
+}
+
+
+/**************************\
+    Final Match Part part 
+\**************************/
+
+.final-match{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.final-match-country{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.final-match-country img{
+width: 200px;
+height: 200px;
+}
+.final-match-country h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+.score{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score h1{
+    font-size: 100px;
+    font-weight: 700;
 }
