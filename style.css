@@ -120,18 +120,20 @@ participate-countries part
     display: flex;
     justify-content: center;
 }
-.section-title h1, h2{
+.section-title{
     margin: 0;
-    text-align: center;
 }
 .section-title h1{
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
+    text-align: center;
+    margin: 0;
 }
 .section-title h2{
     font-size: 28px;
     font-weight: 500;
     margin: 0;
+    text-align: center;
 }
 .countries{
     display: grid;
