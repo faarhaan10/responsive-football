@@ -157,35 +157,6 @@ participate-countries part
     height: 128px;
 }
 
-/***********************\
-      Footer part 
-\***********************/
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-}
-.footer-logo img{
-width: 484px;
-height: 110px;
-}
-.social-links{
-    display: flex;
-}
-.social-link{
-    margin-bottom: 4px;   
-margin-right: 14px;
-}
-.social-link img{
-width: 32px;
-height: 32px;
-}
-.section-copyright{
-    font-size: 18px;
-    font-weight: 400;
-}
-
 
 /**************************\
     Final Match Part part 
@@ -233,6 +204,36 @@ height: 200px;
     font-size: 100px;
     font-weight: 700;
 }
+
+/***********************\
+      Footer part 
+\***********************/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer-logo img{
+width: 484px;
+height: 110px;
+}
+.social-links{
+    display: flex;
+}
+.social-link{
+    margin-bottom: 4px;   
+margin-right: 14px;
+}
+.social-link img{
+width: 32px;
+height: 32px;
+}
+.section-copyright{
+    font-size: 18px;
+    font-weight: 400;
+}
+
 
 
 
